@@ -4,7 +4,7 @@ import css from "./Notification.module.css"
 export const Notification = ({message}) =>{
     return(
         <div>
-            <p>{message} !</p>
+            <p className={css.p}>{message} !</p>
         </div>
     )
 }
