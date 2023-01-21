@@ -11,15 +11,13 @@ export const Statistics = ({
   positivePercentage,
 }) => {
     return(
-        <section>
             <ul>
             <li className={css.li} key={"good"}>Good: {good}</li>
             <li className={css.li} key={"neutral"}>Neutral: {neutral}</li>
             <li className={css.li} key={"bad"}>Bad: {bad}</li>
-            <li className={css.li} key={"total"}>Total: {total} </li>
+            <li className={css.li} key={"total"}>Total: {total}</li>
             <li className={css.li} key={"positivePercentage"}>Positive feedback: {positivePercentage}%</li>
             </ul>
-        </section>
     )
 };
 
